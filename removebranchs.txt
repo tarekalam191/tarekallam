@@ -1,0 +1,4 @@
+ delete local branch = git branch -d dev
+ delete local branch = git branch -d test
+delete remotely = git push origin :test
+ delete remotely = git push origin :dev
